@@ -1,22 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Bootstrap (repl.it)</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Unicell</title>
+
     <!-- Bootstrap CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet">
-    <!-- Our CSS -->
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link
+      href="./Ressources/Code-Bootstrap/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- My CSS -->
+    <link
+      href="./Code/P-index/style-index.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Add font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+    </style>
   </head>
+
+  <!-- Code body -->
   <body>
-    <h1>Hello world</h1>
-    <div class="alert alert-success" role="alert">
-      Si vous voyez ce message en vert foncé dans un encart vert alors bravo, vous avez réussi à installer Bootstrap CDN !
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-dark"
+      aria-label="Main navigation"
+    >
+      <div class="container-fluid justify-content-between d-flex flex-row">
+        <button
+          class="navbar-toggler p-0 border-0"
+          type="button"
+          id="navbarSideCollapse"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div>
+          <a class="navbar-brand" href="#">
+            <img
+              src="./Ressources/Picotgramme-Logo/Blanc/Logo-unicell-blanc.svg"
+              alt="Logo unicell"
+              class="navbar-logo"
+            />
+            unicell</a
+          >
+        </div>
+        <!-- Collapse -->
+        <div class="navbar-collapse offcanvas-collapse" id="navbarscroll">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item d-inline-block">
+              <a class="nav-link" aria-current="page" href="#">
+                <img
+                  src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Homme-parle-blanc.svg"
+                  alt="Pictos_Homme-parle-blanc"
+                  class="navbar-picto"
+                />
+                Message
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img
+                  src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Slogan-blanc.svg"
+                  alt="Pictos_Slogan-blanc"
+                  class="navbar-picto"
+                />
+                Slogan
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img
+                  src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Parrainage-blanc.svg"
+                  alt="Pictos_Parrainage-blanc"
+                  class="navbar-picto"
+                />
+                Nos parrains
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img
+                  src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Enfant-saute-blanc.svg"
+                  alt="Pictos_Enfant-saute-blanc"
+                  class="navbar-picto feather"
+                />
+                Nos enfants
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img
+                  src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Video-blanc.svg"
+                  alt="Pictos_Video-blanc"
+                  class="navbar-picto"
+                />
+                Video
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img
+                  src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Agenda-blanc.svg"
+                  alt="Pictos_Agenda-blanc"
+                  class="navbar-picto"
+                />
+                Évènement
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Scroll to top -->
+    <div class="scroll_to_top">
+      <a href="#"
+        ><img
+          src="./Ressources/Picotgramme-Logo/Bleu/Pictos_Fleche-haut-bleu.svg"
+          alt="Retourner en haut"
+      /></a>
     </div>
+
+    <!-- Message -->
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut unde iure
+      deleniti nesciunt ab laboriosam doloremque eveniet. Eos ratione, porro
+      mollitia nisi qui hic impedit. Culpa omnis pariatur fuga officiis.
+    </div>
+
     <!-- Bootstrap JavaScript -->
-    <script src="bootstrap.bundle.min.js"></script>
-    <!-- Our JavaScript -->
-    <script src="script.js"></script>
+    <script src="./Ressources/Code-Bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- My JavaScript -->
+    <script src="./Code/P-index/script-index.js"></script>
   </body>
 </html>
