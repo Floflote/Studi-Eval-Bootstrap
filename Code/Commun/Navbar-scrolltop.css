@@ -30,12 +30,12 @@
 }
 
 @media (max-width: 991.98px) {
-  .offcanvas-collapse {
+  .navside-collapse {
     position: fixed;
     margin-top: 0;
     top: 56px; /* Height of navbar */
     bottom: 0;
-    right: 100%;
+    left: 100%;
     width: 200px;
     padding-right: 1rem;
     padding-left: 1rem;
@@ -43,11 +43,11 @@
     visibility: hidden;
     background-color: #011c37;
     transition: transform 0.4s ease-in-out, visibility 0.3s ease-in-out;
-    box-shadow: 2px 0px 7px rgb(100, 100, 100);
+    box-shadow: -2px 0px 7px rgb(100, 100, 100);
   }
-  .offcanvas-collapse.open {
+  .navside-collapse.open {
     visibility: visible;
-    transform: translateX(100%);
+    transform: translateX(-100%);
   }
 }
 

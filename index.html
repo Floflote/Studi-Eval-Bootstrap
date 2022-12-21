@@ -34,96 +34,103 @@
   <!-- Code body -->
   <body>
     <!-- Navbar -->
-    <nav
-      class="navbar navbar-expand-lg fixed-top navbar-dark"
-      aria-label="Main navigation"
-    >
-      <div class="container-fluid justify-content-between d-flex flex-row">
-        <button
-          class="navbar-toggler p-0 border-0"
-          type="button"
-          id="navbarSideCollapse"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div>
-          <a class="navbar-brand" href="#">
-            <img
-              src="./Ressources/Picotgramme-Logo/Blanc/Logo-unicell-blanc.svg"
-              alt="Logo unicell"
-              class="navbar-logo"
-            />
-            unicell</a
+    <header>
+      <nav
+        class="navbar navbar-expand-lg fixed-top navbar-dark"
+        aria-label="Main navigation"
+      >
+        <div class="container-fluid justify-content-between d-flex flex-row">
+          <div>
+            <a class="navbar-brand" href="#">
+              <img
+                src="./Ressources/Picotgramme-Logo/Blanc/Logo-unicell-blanc.svg"
+                alt="Logo unicell"
+                class="navbar-logo"
+              />
+              unicell</a
+            >
+          </div>
+          <button
+            class="navbar-toggler p-0 border-0"
+            type="button"
+            id="navbarSideCollapse"
+            aria-label="Toggle navigation"
           >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapse -->
+          <div class="navbar-collapse navside-collapse" id="navbarscroll">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item d-inline-block">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="#sectionpresident"
+                >
+                  <img
+                    src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Homme-parle-blanc.svg"
+                    alt="Pictos_Homme-parle-blanc"
+                    class="navbar-picto"
+                  />
+                  Message
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sectionslogan">
+                  <img
+                    src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Slogan-blanc.svg"
+                    alt="Pictos_Slogan-blanc"
+                    class="navbar-picto"
+                  />
+                  Slogan
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sectionparrains">
+                  <img
+                    src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Parrainage-blanc.svg"
+                    alt="Pictos_Parrainage-blanc"
+                    class="navbar-picto"
+                  />
+                  Nos parrains
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img
+                    src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Enfant-saute-blanc.svg"
+                    alt="Pictos_Enfant-saute-blanc"
+                    class="navbar-picto feather"
+                  />
+                  Nos enfants
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img
+                    src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Video-blanc.svg"
+                    alt="Pictos_Video-blanc"
+                    class="navbar-picto"
+                  />
+                  Video
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img
+                    src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Agenda-blanc.svg"
+                    alt="Pictos_Agenda-blanc"
+                    class="navbar-picto"
+                  />
+                  Évènement
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <!-- Collapse -->
-        <div class="navbar-collapse offcanvas-collapse" id="navbarscroll">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item d-inline-block">
-              <a class="nav-link" aria-current="page" href="#">
-                <img
-                  src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Homme-parle-blanc.svg"
-                  alt="Pictos_Homme-parle-blanc"
-                  class="navbar-picto"
-                />
-                Message
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <img
-                  src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Slogan-blanc.svg"
-                  alt="Pictos_Slogan-blanc"
-                  class="navbar-picto"
-                />
-                Slogan
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <img
-                  src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Parrainage-blanc.svg"
-                  alt="Pictos_Parrainage-blanc"
-                  class="navbar-picto"
-                />
-                Nos parrains
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <img
-                  src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Enfant-saute-blanc.svg"
-                  alt="Pictos_Enfant-saute-blanc"
-                  class="navbar-picto feather"
-                />
-                Nos enfants
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <img
-                  src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Video-blanc.svg"
-                  alt="Pictos_Video-blanc"
-                  class="navbar-picto"
-                />
-                Video
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <img
-                  src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Agenda-blanc.svg"
-                  alt="Pictos_Agenda-blanc"
-                  class="navbar-picto"
-                />
-                Évènement
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
     <!-- Scroll to top -->
     <div class="scroll_to_top">
@@ -134,16 +141,107 @@
       /></a>
     </div>
 
-    <!-- Message -->
-    <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut unde iure
-      deleniti nesciunt ab laboriosam doloremque eveniet. Eos ratione, porro
-      mollitia nisi qui hic impedit. Culpa omnis pariatur fuga officiis.
-    </div>
+    <!-- Main Section -->
+    <main>
+      <!-- Message -->
+      <section id="sectionpresident" class="py-5 container sectionbarre">
+        <div class="row d-flex justify-content-center">
+          <img
+            src="./Ressources/Celebrites/Alain-Chabat.png"
+            alt="Alain-Chabat"
+            class="alainchabat"
+          />
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h2 class="fw-bold title-president">
+              <img
+                src="./Ressources/Picotgramme-Logo/Noir/Pictos_Homme-parle.svg"
+                alt="Pictos_Homme-parle-blanc"
+                class="picto-title"
+              />
+              Message de notre Président
+              <br />
+              <em>Alain CHABAT</em>
+            </h2>
+            <p class="lead message-president">
+              « Aujourd’hui dans le monde,
+              <strong
+                >40% des enfants de moins de 10 ans n'ont pas de
+                portable</strong
+              >. 40% des enfants de moins de 10 ans
+              <strong>n'ont pas TikTok</strong>. 40% des enfants de moins de 10
+              ans qui n'ont pas d'écran dans la main
+              <strong>sont obligés de s'adresser à un adulte</strong> pour
+              passer un coup de fil portable. 40% des enfants de moins de 10 ans
+              sont littéralement <strong>coupés du monde</strong>. Et c'est de
+              la faute de personne. Vous trouvez ça normal? Cette situation ne
+              peut plus durer. Pour que ces enfants puissent communiquer,
+              échanger, être averti des promotions commerciales sur des produits
+              de trentième nécessitée, donner à l'Unicell.
+              <strong>Faites un don à l'Unicell</strong>
+            </p>
+          </div>
+          <div class="row d-flex justify-content-center pb-3">
+            <img
+              src="./Ressources/Picotgramme-Logo/Bleu/Banderole-unicell_Logo-complet-bleu.svg"
+              alt="Banderole-unicell_Logo-complet-bleu"
+              class="logocompmess"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Slogan -->
+      <section id="sectionslogan" class="pb-5 container sectionbarre">
+        <div class="row text-center">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h2 class="fw-bold title-president">
+              <img
+                src="./Ressources/Picotgramme-Logo/Noir/Pictos_Slogan.svg"
+                alt="Pictos_Homme-parle-blanc"
+                class="picto-title"
+              />
+              Notre Slogan
+            </h2>
+            <p class="lead">
+              <strong
+                >« Un enfant sans portable, c'est insupportable ! »</strong
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Parrains -->
+      <section id="sectionparrains" class="album pb-5 sectionbarre">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h2 class="fw-bold title-president">
+                <img
+                  src="./Ressources/Picotgramme-Logo/Noir/Pictos_Parrainage.svg"
+                  alt="Pictos_Parrainage"
+                  class="picto-title"
+                />
+                Nos parrains
+              </h2>
+          <!-- Cards -->
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <!-- Angele -->
+            <div class="col">
+              <div class="card ">
+                <img src="./Ressources/Celebrites/Angele.png" alt="Angele">                
+                <div class="card-body text-center">
+                  <h3 class="card-text">Angèle</h3>
+                </div>
+              </div>
+            </div>
+    </main>
 
     <!-- Bootstrap JavaScript -->
     <script src="./Ressources/Code-Bootstrap/bootstrap.bundle.min.js"></script>
-    <!-- My JavaScript -->
-    <script src="./Code/P-index/script-index.js"></script>
+    <!-- JavaScript Navbar Collapse -->
+    <script src="./Code/Commun/script-navbarcoll.js"></script>
   </body>
 </html>
