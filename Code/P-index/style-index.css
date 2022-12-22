@@ -101,7 +101,7 @@ body {
 
 .pictofooter {
   height: auto;
-  width: 30px;
+  width: 35px;
 }
 
 .logofooter {
@@ -114,4 +114,13 @@ body {
   width: auto;
   margin-right: 4px;
   vertical-align: text-bottom;
+}
+
+.picfooh {
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.picfooh:hover {
+  transform: translateY(-20px);
 }
