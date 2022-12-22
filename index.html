@@ -10,14 +10,10 @@
       href="./Ressources/Code-Bootstrap/bootstrap.min.css"
       rel="stylesheet"
     />
-    <!-- My Page CSS -->
-    <link
-      href="./Code/P-index/style-index.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./Code/P-index/style-index.css" />
     <!-- Navbar and scroll to top CSS -->
-    <link rel="stylesheet" href="./Code/Commun/Navbar-scrolltop.css" />
+    <link rel="stylesheet" href="./Code/P-index/Navbar-scrolltop.css" />
 
     <!-- Add font style -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -97,7 +93,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="#sectionenfants">
                   <img
                     src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Enfant-saute-blanc.svg"
                     alt="Pictos_Enfant-saute-blanc"
@@ -107,7 +103,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="#sectionvideo">
                   <img
                     src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Video-blanc.svg"
                     alt="Pictos_Video-blanc"
@@ -179,7 +175,7 @@
               peut plus durer. Pour que ces enfants puissent communiquer,
               échanger, être averti des promotions commerciales sur des produits
               de trentième nécessitée, donner à l'Unicell.
-              <strong>Faites un don à l'Unicell</strong>
+              <strong>Faites un don à l'Unicell</strong> ».
             </p>
           </div>
           <div class="row d-flex justify-content-center pb-3">
@@ -226,22 +222,332 @@
                 />
                 Nos parrains
               </h2>
-          <!-- Cards -->
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <!-- Angele -->
-            <div class="col">
-              <div class="card ">
-                <img src="./Ressources/Celebrites/Angele.png" alt="Angele">                
-                <div class="card-body text-center">
-                  <h3 class="card-text">Angèle</h3>
+              <!-- Cards -->
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <!-- Angele -->
+                <div class="col">
+                  <div class="card containeroverlay">
+                    <img
+                      src="./Ressources/Celebrites/Angele.png"
+                      alt="Angele"
+                    />
+                    <div class="cardbody overlay">
+                      <div class="textoverlay">Angèle</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Edouard Baer -->
+                <div class="col">
+                  <div class="card containeroverlay">
+                    <img
+                      src="./Ressources/Celebrites/Edouard-Baer.png"
+                      alt="Edouard-Baer"
+                    />
+                    <div class="overlay">
+                      <div class="textoverlay">Edouard Baer</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Gerard Darmon -->
+                <div class="col">
+                  <div class="card containeroverlay">
+                    <img
+                      src="./Ressources/Celebrites/Gerard-Darmon.png"
+                      alt="Gerard-Darmon"
+                    />
+                    <div class="overlay">
+                      <div class="textoverlay">Gérard Darmon</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Guillaume Canet -->
+                <div class="col">
+                  <div class="card containeroverlay">
+                    <img
+                      src="./Ressources/Celebrites/Guillaume-Canet.png"
+                      alt="Guillaume-Canet"
+                    />
+                    <div class="overlay">
+                      <div class="textoverlay">Guillaume Canet</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Jean Dujardin -->
+                <div class="col">
+                  <div class="card containeroverlay">
+                    <img
+                      src="./Ressources/Celebrites/Jean-Dujardin.png"
+                      alt="Jean Dujardin"
+                    />
+                    <div class="overlay">
+                      <div class="textoverlay">Jean Dujardin</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Jean Pascal Zadi -->
+                <div class="col">
+                  <div class="card containeroverlay">
+                    <img
+                      src="./Ressources/Celebrites/Jean-Pascal-Zadi.png"
+                      alt="Jean-Pascal-Zadi"
+                    />
+                    <div class="overlay">
+                      <div class="textoverlay">Jean-Pascal Zadi</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Laurent Lafitte -->
+                <div class="col">
+                  <div class="card containeroverlay">
+                    <img
+                      src="./Ressources/Celebrites/Laurent-Lafitte.png"
+                      alt="Laurent-Lafitte"
+                    />
+                    <div class="overlay">
+                      <div class="textoverlay">Laurent Lafitte</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Lena Situations -->
+                <div class="col">
+                  <div class="card containeroverlay">
+                    <img
+                      src="./Ressources/Celebrites/Lena-Situations.png"
+                      alt="Lena-Situations"
+                    />
+                    <div class="overlay">
+                      <div class="textoverlay">Lena Situations</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Marina Fois -->
+                <div class="col">
+                  <div class="card containeroverlay">
+                    <img
+                      src="./Ressources/Celebrites/Marina-Fois.png"
+                      alt="Marina-Fois"
+                    />
+                    <div class="overlay">
+                      <div class="textoverlay">Marina Fois</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Monica  Bellucci -->
+                <div class="col pb-4">
+                  <div class="card containeroverlay">
+                    <img
+                      src="./Ressources/Celebrites/Monica-Bellucci.png"
+                      alt="Monica-Bellucci"
+                    />
+                    <div class="overlay">
+                      <div class="textoverlay">Monica Bellucci</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Enfants -->
+      <section id="sectionenfants" class="album sectionbarre">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h2 class="fw-bold title-president">
+                <img
+                  src="./Ressources/Picotgramme-Logo/Noir/Pictos_Enfant-saute.svg"
+                  alt="Pictos_Parrainage"
+                  class="picto-title"
+                />
+                Nos enfants sans portable
+              </h2>
+              <!-- Cards -->
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <!-- Enfant1 -->
+                <div class="col">
+                  <div class="card">
+                    <img src="./Ressources/Enfants/Enfant1.png" alt="Enfant1" />
+                  </div>
+                </div>
+                <!-- Enfant2 -->
+                <div class="col">
+                  <div class="card">
+                    <img src="./Ressources/Enfants/Enfant2.png" alt="Enfant2" />
+                  </div>
+                </div>
+                <!-- Enfant3 -->
+                <div class="col">
+                  <div class="card">
+                    <img src="./Ressources/Enfants/Enfant3.png" alt="Enfant3" />
+                  </div>
+                </div>
+                <!-- Enfant4 -->
+                <div class="col">
+                  <div class="card">
+                    <img src="./Ressources/Enfants/Enfant4.png" alt="Enfant4" />
+                  </div>
+                </div>
+                <!-- Enfant5 -->
+                <div class="col">
+                  <div class="card">
+                    <img src="./Ressources/Enfants/Enfant5.png" alt="Enfant5" />
+                  </div>
+                </div>
+                <!-- Enfant6 -->
+                <div class="col">
+                  <div class="card">
+                    <img src="./Ressources/Enfants/Enfant6.png" alt="Enfant6" />
+                  </div>
+                </div>
+                <!-- Enfant7 -->
+                <div class="col">
+                  <div class="card">
+                    <img src="./Ressources/Enfants/Enfant7.png" alt="Enfant7" />
+                  </div>
+                </div>
+                <!-- Enfant8 -->
+                <div class="col">
+                  <div class="card">
+                    <img src="./Ressources/Enfants/Enfant8.png" alt="Enfant8" />
+                  </div>
+                </div>
+                <!-- Enfant9 -->
+                <div class="col">
+                  <div class="card">
+                    <img src="./Ressources/Enfants/Enfant9.png" alt="Enfant9" />
+                  </div>
+                </div>
+                <!-- Enfant10 -->
+                <div class="col pb-4">
+                  <div class="card">
+                    <img
+                      src="./Ressources/Enfants/Enfant10.png"
+                      alt="Enfant10"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video -->
+      <section id="sectionvideo" class="py-5">
+        <div class="container jus">
+          <div class="row text-center">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h2 class="fw-bold title-president">
+                <img
+                  src="./Ressources/Picotgramme-Logo/Noir/Pictos_Video.svg"
+                  alt="Pictos_Parrainage"
+                  class="picto-title"
+                />
+                Notre video promotionnelle
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-8 mx-auto pb-4">
+              <video class="video" allowfullscreen preload="auto" controls>
+                <source src="./Ressources/Video/unicell.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <footer
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-3 px-3 align-items-center justify-content-center justify-content-md-between mx-auto"
+        >
+
+          <!-- unicell -->
+          <div class="col d-flex flex-column py-2 align-items-center justify-content-center text-center">
+            <a href="/">
+              <img
+                class="logofooter"
+                src="./Ressources/Picotgramme-Logo/Blanc/Banderole-unicell_Logo-complet-blanc.svg"
+                alt="Logo"
+              />
+            </a>
+            <p>
+              &copy; Association Unicelll 2022.
+              <br>
+              Tous droits réservés.
+              <br>
+              Réalisation FloFlote.
+            </p>
+          </div>
+
+          <!-- Coordonnees -->
+          <div
+            class="col d-flex flex-column justify-content-center align-items-center mx-5 py-2"
+          >
+            <span>
+              <img
+                src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Plan-blanc.svg"
+                alt="Plan"
+                class="pictofren"
+              />1 Rue Martin,
+              <br>
+              00001 Martinville
+            <br>
+              <img
+                src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Tel-ancien-blanc.svg"
+                alt="Plan"
+                class="pictofren"
+              />06 06 06 06 06
+            </span>
+          </div>
+
+          <!-- Reseaux sociaux -->
+          <ul class="col list-unstyled d-flex pt-4 justify-content-center">
+            <li class="ms-3">
+              <a href="#Facebook"
+                ><img
+                  class="pictofooter"
+                  src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Facebook-blanc.svg"
+                  alt="Facebook"
+              /></a>
+            </li>
+            <li class="ms-3">
+              <a href="#Instagram"
+                ><img
+                  class="pictofooter"
+                  src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Instagram-blanc.svg"
+                  alt="Instagram"
+              /></a>
+            </li>
+            <li class="ms-3">
+              <a href="#TikTok"
+                ><img
+                  class="pictofooter"
+                  src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Tictoc-blanc.svg"
+                  alt="Tictoc"
+              /></a>
+            </li>
+            <li class="ms-3">
+              <a href="#Twitter"
+                ><img
+                  class="pictofooter"
+                  src="./Ressources/Picotgramme-Logo/Blanc/Pictos_Twitter-blanc.svg"
+                  alt="twitter"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
 
     <!-- Bootstrap JavaScript -->
     <script src="./Ressources/Code-Bootstrap/bootstrap.bundle.min.js"></script>
     <!-- JavaScript Navbar Collapse -->
-    <script src="./Code/Commun/script-navbarcoll.js"></script>
+    <script src="./Code/P-index/script-navbarcoll.js"></script>
   </body>
 </html>

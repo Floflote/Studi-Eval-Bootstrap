@@ -13,6 +13,7 @@ body {
   font-family: PTsans, sans-serif;
   overflow-x: hidden; /* Prevent scroll on narrow devices */
   padding-top: 70px;
+  scroll-behavior: smooth;
 }
 
 /* Common picto and barre */
@@ -47,9 +48,70 @@ body {
 }
 
 .logocompmess {
-  height: auto;
+  max-height: 165px;
   width: auto;
-  width: 50%;
 }
 
 /* Parrains */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.4s ease;
+  background-color: #66ccff;
+}
+
+.containeroverlay:hover .overlay {
+  opacity: 1;
+}
+
+.textoverlay {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0px 0px 7px rgb(100, 100, 100);
+}
+
+/* Video */
+.video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  background-color: #011c37;
+  color: white;
+  box-shadow: 0px -2px 7px rgb(100, 100, 100);
+}
+
+.pictofooter {
+  height: auto;
+  width: 30px;
+}
+
+.logofooter {
+  height: 50px;
+  width: auto;
+}
+
+.pictofren {
+  height: 24px;
+  width: auto;
+  margin-right: 4px;
+  vertical-align: text-bottom;
+}
