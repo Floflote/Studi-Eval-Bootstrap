@@ -35,62 +35,6 @@ body {
   margin-right: auto;
 }
 
-/* Message */
-.alainchabat {
-  margin-top: -55px;
-  height: 300px;
-  width: auto;
-  border-radius: 0 0 70px 70px;
-}
-
-.message-president {
-  text-align: justify;
-}
-
-.logocompmess {
-  max-height: 165px;
-  width: auto;
-}
-
-/* Parrains */
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.4s ease;
-  background-color: #66ccff;
-}
-
-.containeroverlay:hover .overlay {
-  opacity: 0.9;
-}
-
-.textoverlay {
-  color: white;
-  font-size: 20px;
-  font-weight: bolder;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.card {
-  box-shadow: 0px 0px 7px rgb(100, 100, 100);
-}
-
-/* Video */
-.video {
-  max-width: 100%;
-  height: auto;
-}
-
 /* Footer */
 .footer {
   width: 100%;
