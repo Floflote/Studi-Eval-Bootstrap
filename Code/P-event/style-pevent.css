@@ -35,6 +35,38 @@ body {
   margin-right: auto;
 }
 
+/* Event */
+.imgchildsmph {
+  margin-top: -55px;
+  max-height: 420px;
+  width: auto;
+  margin-bottom: 10px;
+  border-radius: 10%;
+}
+
+.message-event {
+  text-align: justify;
+  text-indent: 1.5em;
+}
+
+/* Contact */
+.btn-form {
+  background-color: #66ccff;
+  color: white;
+  transition: all 0.5 ease;
+  border: 2px solid white;
+}
+
+.btn-form:hover {
+  background-color: white;
+  color: #66ccff;
+  border: 2px solid #66ccff;
+}
+
+.chekcond {
+  margin-top: -10px;
+}
+
 /* Footer */
 .footer {
   width: 100%;
